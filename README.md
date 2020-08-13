@@ -4,5 +4,5 @@ Course project done for Getting and cleaning data course on Coursera Files:
 - *Run_Analysis.R: loads the data, merges it and perform data cleaning steps required by the course project*
 - *output.txt: a tidy data set with the average of each variable for each activity and each subject*
 - *CODEBOOK.md: code book of the new tidy dataset*
-- *UCI HAR Dataset: folder containing raw data files*
+
 A full description is available at the site where the data was obtained: http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones
