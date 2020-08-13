@@ -1,4 +1,4 @@
-# getting-cleaning-data-course-project
+# getting-and-cleaning-data-course-project
 Course project done for Getting and cleaning data course on Coursera Files:
 - *process_data.R: contains supporting functions to read 1 set of data (X, y, subject files) from either train or test folder to be used in run_analysis.R*
 - *run_analysis.R: perform data cleaning steps required by the course project*
