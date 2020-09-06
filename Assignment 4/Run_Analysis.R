@@ -1,4 +1,3 @@
-  
 ##--------------------------------------------------------------
 ## Please view README.md and CodeBook.md for variable names/descriptions and other useful information
 ## Data source: https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
@@ -58,3 +57,4 @@ needed_df <- mutate(needed_df, activity = activity_labels[activity,2])
 ## 5. From the data set in step 4, creates a second, independent tidy data set with the average of each variable for each activity and each subject.
 output <- needed_df %>% group_by(subject, activity) %>% summarise(across(cols=c(-subject, -activity), .fns=mean))
 write.table(output, 'output.txt', row.names = FALSE)
+
